@@ -181,7 +181,7 @@ def game_over():
                 main_game()
             elif event.type== pygame.KEYDOWN and event.key == pygame.K_RETURN:
                 menue_screen()
-            elif event.type == pygame.KEYDOWN and event.key ==pygame.K_BACKSPACE:
+            elif event.type == pygame.KEYDOWN and event.key ==pygame.K_h:
                 highscoreliste()
 
         gameoveranzeige=font_style.render("Game Over ! ", True , black)
